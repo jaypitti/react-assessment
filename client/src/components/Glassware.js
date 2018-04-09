@@ -1,8 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import {connect} from 'react-redux';
-import {Link} from 'react-router-dom';
-import {setFlash} from '../actions/flash';
+import { Link } from 'react-router-dom';
+import { setFlash } from '../actions/flash';
 import {
   Button,
   Card,
@@ -84,4 +83,4 @@ class Glassware extends React.Component {
 
 }
 
-export default connect()(Glassware);
+export default Glassware;

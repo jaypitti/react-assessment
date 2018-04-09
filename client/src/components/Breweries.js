@@ -1,9 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import InfiniteScroll from 'react-infinite-scroller';
-import {connect} from 'react-redux';
-import {Link} from 'react-router-dom';
-import {setFlash} from '../actions/flash';
+import { Link } from 'react-router-dom';
+import { setFlash } from '../actions/flash';
 import {
   Button,
   Card,
@@ -138,4 +137,4 @@ const Bar = styled(Segment) `
   color: white !important;
 `
 
-export default connect()(Breweries);
+export default Breweries;

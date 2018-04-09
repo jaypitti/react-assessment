@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
-import {Header, Segment, Divider, Grid, Image} from 'semantic-ui-react';
+import React, { Component } from 'react';
+import { Header, Segment, Divider, Grid, Image } from 'semantic-ui-react';
 import ReactMarkDown from 'react-markdown';
 import axios from 'axios';
 import dpsLogo from '../images/dpsLogo.svg';
 
-class Rules extends Component {
+class Home extends Component {
   state = {assignmentMarkdown: ''};
 
   componentDidMount() {
@@ -73,4 +73,4 @@ const styles = {
   }
 }
 
-export default Rules;
+export default Home;

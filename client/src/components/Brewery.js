@@ -1,8 +1,8 @@
 import React from 'react';
-import {Segment, Header, Image, Container, Grid, Divider, Button} from 'semantic-ui-react';
+import { Segment, Header, Image, Container, Grid, Divider, Button } from 'semantic-ui-react';
 import axios from 'axios';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 class Brewery extends React.Component {
